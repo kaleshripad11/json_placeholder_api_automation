@@ -1,5 +1,8 @@
-# JSONPlaceholder REST API Test Automation
-🚀 Overview
+<html>
+    <head></head>
+    <body>
+        <h3># JSONPlaceholder REST API Test Automation</h3>
+        <h1>🚀 Overview</h1>
 This project provides a modular and reusable test automation framework for validating REST APIs.<br\>
 It uses:
 Python requests for API calls
@@ -23,3 +26,6 @@ YAML/JSON data files for test input management
         |-- config_reader.py
         |-- read_json_data.py
         |-- __init__.py
+
+    </body>
+</html>
