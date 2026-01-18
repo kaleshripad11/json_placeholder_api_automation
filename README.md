@@ -1,7 +1,6 @@
 # JSONPlaceholder REST API Test Automation
 🚀 Overview
-This project provides a modular and reusable test automation framework for validating REST APIs.
-
+This project provides a modular and reusable test automation framework for validating REST APIs.\n
 It uses:
 Python requests for API calls
 Pytest for test execution and reporting
