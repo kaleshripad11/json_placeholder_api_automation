@@ -1,0 +1,67 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# -----------------------------
+# Test & Coverage
+# -----------------------------
+# pytest cache
+.pytest_cache/
+.cache/
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# -----------------------------
+# IDE & Editor
+# -----------------------------
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+# Other editors
+*.swp
+*.swo
+
+# -----------------------------
+# Reports & Artifacts
+# -----------------------------
+*.html
+*.xml
+*.db
+*.sqlite
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Project-specific
+# -----------------------------
+# Logs and temp files
+logs/
+*.log
+tmp/
+
+# -----------------------------
+# Other
+# -----------------------------

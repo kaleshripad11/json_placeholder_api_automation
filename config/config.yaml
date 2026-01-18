@@ -1,0 +1,5 @@
+base_url: https://jsonplaceholder.typicode.com
+headers:
+  {
+    'Content-Type':'plain/text'
+  }
