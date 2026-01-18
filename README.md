@@ -1,8 +1,8 @@
 <html>
     <head></head>
     <body>
-        <h3># JSONPlaceholder REST API Test Automation</h3>
-        <h1>🚀 Overview</h1>
+        <h2># JSONPlaceholder REST API Test Automation</h2>
+        <h3>🚀 Overview</h3>
 This project provides a modular and reusable test automation framework for validating REST APIs.<br\>
 It uses:
 Python requests for API calls
