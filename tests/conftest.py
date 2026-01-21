@@ -1,5 +1,3 @@
-# conftest.py
-
 import pytest
 
 from utils.api_client_base import Api_Client_Base
