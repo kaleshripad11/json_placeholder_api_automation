@@ -108,3 +108,5 @@ pytype/
 cython_debug/
 # PyCharm
 idea/
+reports/*
+reports/
