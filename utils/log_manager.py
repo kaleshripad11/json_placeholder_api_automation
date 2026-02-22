@@ -10,7 +10,7 @@ def get_logger(name: str) -> logging.Logger:
 
     timestamp = time.strftime("%Y_%m_%d")
 
-    log_file = os.path.join(log_dir, f"orange_hrm_{str(timestamp)}.log")
+    log_file = os.path.join(log_dir, f"json_placeholder_{str(timestamp)}.log")
 
     # Logger configuration
     logger = logging.getLogger(name)
