@@ -1,5 +1,5 @@
 # JSONPlaceholder REST API Test Automation
-<h5>🚀 Overview</h5>
+<h3>🚀 Overview</h3>
 <p>This project provides a modular and reusable test automation framework for validating REST APIs.
 <p>It uses:
 <ul>
