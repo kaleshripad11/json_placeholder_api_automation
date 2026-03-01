@@ -15,3 +15,9 @@ class Test_Posts:
         data = response.json()
         assert "id" in data, f"Expected 'id' in response, Recieved '{data}' in response"
         log.info("Finished API test")
+
+    def test_response_after_get_single_post(self, api_client, configs):
+        log.info("Started api test")
+        response = api_client.get_api(f"{configs['base_url']}/posts/1", api_headers=configs["headers"])
+        assert response.status_code == 200, f"Expected response code: 200; Recieved response code: {response.status_code}"
+        log.info("API test finished")

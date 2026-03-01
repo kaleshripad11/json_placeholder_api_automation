@@ -13,6 +13,6 @@ class Api_Client_Base:
         self.api_response = requests.request("POST", url=api_url, data=body_data, headers=api_headers, json=None)
         return self.api_response
     
-    def get_api(self, api_url, api_header, body_params=None):
-        self.api_reponse = requests.request("GET", url=api_url, headers=api_header, params=body_params)
+    def get_api(self, api_url, api_headers, body_params=None):
+        self.api_reponse = requests.request("GET", url=api_url, headers=api_headers, params=body_params)
         return self.api_reponse
