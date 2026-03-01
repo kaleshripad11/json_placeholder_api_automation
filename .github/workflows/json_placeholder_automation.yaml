@@ -1,4 +1,4 @@
-# .github/workflows/playwright.yml
+# .github/workflows/json_placeholder.yml
 name: JSON Placeholder Test Automation
 
 on:
