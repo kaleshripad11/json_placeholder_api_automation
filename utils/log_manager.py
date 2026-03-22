@@ -32,6 +32,6 @@ def get_logger(name: str) -> logging.Logger:
 
     if not logger.handlers:
         logger.addHandler(fh)
-        logger.addFilter(ch)
+        logger.addHandler(ch)
 
     return logger
