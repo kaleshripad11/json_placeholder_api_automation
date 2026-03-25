@@ -8,7 +8,7 @@ on:
     branches: [ qa ]
 
 jobs:
-  test:
+  API-Automation:
     runs-on: ubuntu-latest
 
     steps:
